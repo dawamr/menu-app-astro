@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import CustomizeItem from '../../components/CustomizeItem';
+import menuData from '../../data/menu.json';
+
+const { id } = Astro.params;
+const menuItem = menuData.menuItems.find(item => item.id === id);
+---
+
+<Layout title="Customize | Food App">
+  <main class="pb-16">
+    {menuItem && (
+      <CustomizeItem 
+        client:load 
+        item={menuItem} 
+        toppings={menuData.toppings} 
+      />
+    )}
+  </main>
+</Layout>

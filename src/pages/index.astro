@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MenuList from '../components/MenuList';
+import BottomNav from '../components/BottomNav';
+import menuData from '../data/menu.json';
+---
+
+<Layout title="Menu | Food App">
+  <main class="pb-20 bg-gray-50 min-h-screen">
+    <MenuList 
+      client:load 
+      items={menuData.menuItems} 
+      categories={menuData.categories}
+      specialOffer={menuData.specialOffer}
+    />
+    <BottomNav client:load />
+  </main>
+</Layout>

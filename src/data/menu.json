@@ -1,0 +1,39 @@
+{
+  "categories": ["All", "Burger", "Pizza", "Sandwich", "Katsu"],
+  "specialOffer": {
+    "id": "special1",
+    "name": "Double Beef Burger",
+    "discount": "25%",
+    "image": "/images/double-beef-burger.jpg"
+  },
+  "menuItems": [
+    {
+      "id": "1",
+      "name": "Spicy Chicken",
+      "price": 12.5,
+      "category": "Chicken",
+      "image": "/images/spicy-chicken.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Chicken Katsu",
+      "price": 14.5,
+      "category": "Katsu",
+      "image": "/images/chicken-katsu.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Penne Pasta",
+      "price": 13.5,
+      "category": "Pasta",
+      "image": "/images/penne-pasta.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Garlic Chicken",
+      "price": 16.5,
+      "category": "Chicken",
+      "image": "/images/garlic-chicken.jpg"
+    }
+  ]
+}
