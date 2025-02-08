@@ -4,7 +4,7 @@
     "id": "special1",
     "name": "Double Beef Burger",
     "discount": "25%",
-    "image": "/images/double-beef-burger.jpg"
+    "image": "https://placehold.co/400"
   },
   "menuItems": [
     {
@@ -12,28 +12,28 @@
       "name": "Spicy Chicken",
       "price": 12.5,
       "category": "Chicken",
-      "image": "/images/spicy-chicken.jpg"
+      "image": "https://placehold.co/400"
     },
     {
       "id": "2",
       "name": "Chicken Katsu",
       "price": 14.5,
       "category": "Katsu",
-      "image": "/images/chicken-katsu.jpg"
+      "image": "https://placehold.co/400"
     },
     {
       "id": "3",
       "name": "Penne Pasta",
       "price": 13.5,
       "category": "Pasta",
-      "image": "/images/penne-pasta.jpg"
+      "image": "https://placehold.co/400"
     },
     {
       "id": "4",
       "name": "Garlic Chicken",
       "price": 16.5,
       "category": "Chicken",
-      "image": "/images/garlic-chicken.jpg"
+      "image": "https://placehold.co/400"
     }
   ]
 }

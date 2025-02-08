@@ -12,10 +12,10 @@ export default function CustomizeModal({ item, isOpen, onClose, onAddToCart }: C
   const [selectedToppings, setSelectedToppings] = useState<Topping[]>([]);
   
   const toppings: Topping[] = [
-    { id: '1', name: 'Green Onion', price: 1, image: '/images/green-onion.png' },
-    { id: '2', name: '+200gr Beef', price: 5, image: '/images/beef.png' },
-    { id: '3', name: 'Cruller', price: 2, image: '/images/cruller.png' },
-    { id: '4', name: 'Poached Egg', price: 3, image: '/images/egg.png' },
+    { id: '1', name: 'Green Onion', price: 1, image: 'https://placehold.co/400' },
+    { id: '2', name: '+200gr Beef', price: 5, image: 'https://placehold.co/400' },
+    { id: '3', name: 'Cruller', price: 2, image: 'https://placehold.co/400' },
+    { id: '4', name: 'Poached Egg', price: 3, image: 'https://placehold.co/400' },
   ];
 
   const totalPrice = item.price + selectedToppings.reduce((sum, t) => sum + t.price, 0);
